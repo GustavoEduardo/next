@@ -1,0 +1,10 @@
+.estado{
+    background-color: rgb(2, 112, 114);
+    color: floralwhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 3.5em;
+}

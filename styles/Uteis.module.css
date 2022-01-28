@@ -1,0 +1,13 @@
+.tabuleiro{
+    border: 6px solid #5a4b30;
+    box-shadow: 0px 0px 15px 0.5px #000;
+}
+
+.centro{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: floralwhite;
+    flex-wrap: wrap;
+}
