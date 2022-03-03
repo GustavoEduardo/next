@@ -28,10 +28,8 @@ export default function Mega(){
                 marginTop:"5px"
             }}>
                 <input onChange={(ev)=>{setQtd(ev.target.value)}} type="number" min="1" max="20" value={qtd}></input>
-                <button onClick={() =>setNumeros(numerosAleatorios(qtd))} >Gerar</button>
+                <button onClick={() =>setNumeros(numerosAleatorios(qtd))}>Gerar</button>
             </div>
-        </>
-        
-       
+        </>       
     )
 }
